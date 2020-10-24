@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<meta charset=UTF-8>
+<title>Convertir a escala de grises</title>
+
+<body style="background-color: #55AABC">
+
+<script src="https://www.dukelearntoprogram.com/course1/common/js/image/SimpleImage.js"></script>
+<script src="grayscale.js"></script>
+<style>
+
+canvas{
+  height: 200px;
+  width: 350px;
+  border: 2px solid lime;
+}
+
+</style>
+
+
+<canvas id="can">
+  </canvas>
+<canvas id="can2">
+  </canvas>
+<p>
+Seleccionar imagen
+<input id="finput" type="file" accept="image/*" multiple="false" onchange="uploadi()">
+
+<input id="grays" type="button" value="Pasar a escala de grises" onclick="makegray()">
+  </p>  </body>
+
+</html>
